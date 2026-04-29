@@ -24,7 +24,7 @@ load_dotenv()
 @st.cache_resource
 def get_clients():
     anthropic_client = Anthropic()
-    chroma_client = chromadb.PersistentClient(path="./chroma_db")
+    chroma_client = chromadb.Client()
     collection = chroma_client.get_or_create_collection(name="secure_view_docs")
     return anthropic_client, collection
 
