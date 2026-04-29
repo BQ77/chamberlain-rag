@@ -1,0 +1,12 @@
+nano .dockerignore^X
+
+.venv/
+.git/
+.gitignore
+chroma_db/
+__pycache__/
+*.pyc
+.env
+.DS_Store
+.vscode/
+README.md
