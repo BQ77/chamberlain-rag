@@ -1,3 +1,5 @@
+[![Live Demo](https://img.shields.io/badge/🚀%20Live%20Demo-chamberlain--secure--view.streamlit.app-6366f1?style=for-the-badge)](https://chamberlain-secure-view.streamlit.app)
+
 # myQ Secure View Assistant
 
 A Retrieval-Augmented Generation (RAG) chatbot that answers questions about Chamberlain Group's myQ Secure View 3-in-1 Smart Lock, launched January 2026.
