@@ -1,0 +1,19 @@
+# Secrets - never commit these
+.env
+
+# Python compiled files
+__pycache__/
+*.pyc
+
+# Virtual environments
+.venv/
+venv/
+
+# Mac system files
+.DS_Store
+
+# VS Code settings
+.vscode/
+
+# ChromaDB (auto-generated, will rebuild)
+chroma_db/

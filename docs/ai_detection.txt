@@ -1,0 +1,23 @@
+myQ Secure View - AI-Powered Smart Detection and Smart Secure
+
+Intelligent Access That Learns and Anticipates:
+What sets the myQ Secure View 3-in-1 Smart Lock apart isn't just the hardware, but the intelligence behind it. Through AI-powered smart detection, the myQ AI software identifies people, vehicles, animals, packages, and motion with intelligent alerts that reduce false notifications.
+
+Smart Secure feature:
+The proprietary Smart Secure feature can automatically trigger security actions like locking or unlocking doors when a person is detected. The device unlocks the door when a family member or other approved guest approaches, but locks the door (if unlocked) when someone not approved approaches.
+
+Detection categories:
+The myQ AI software identifies the following categories with intelligent alerts:
+- People (with distinction between approved family members and unknown visitors)
+- Vehicles
+- Animals
+- Packages
+- General motion
+
+The AI system reduces false notifications compared to traditional motion-activated cameras by classifying what it sees and only alerting when something meaningful happens.
+
+Coordinated security actions:
+Beyond just notifying, the AI can automatically coordinate security actions across the myQ ecosystem. For example, when a person is detected and recognized as approved, the lock can unlock automatically. When an unapproved person approaches an unlocked door, it can re-lock automatically.
+
+Real-world impact:
+This intelligent access feels effortless and adapts to the way people actually live. Hands full of groceries? Face access unlocks the door automatically as you approach. Service provider needs entry while you're at work? A temporary PIN works. Remote guests need entry? The mobile app provides remote unlock control.
