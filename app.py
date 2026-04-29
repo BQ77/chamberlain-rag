@@ -59,7 +59,7 @@ if user_input := st.chat_input("Ask about the Secure View..."):
     # STEP 1: Retrieve top 3 relevant chunks from ChromaDB
     results = collection.query(
         query_texts=[user_input],
-        n_results=3,
+        n_results=5,
     )
     relevant_chunks = results["documents"][0]
     sources = list({m["source"] for m in results["metadatas"][0]})
@@ -68,9 +68,9 @@ if user_input := st.chat_input("Ask about the Secure View..."):
     context = "\n\n---\n\n".join(relevant_chunks)
 
     # STEP 3: Build system prompt with retrieved context
-    system_prompt = f"""You are a helpful assistant that answers questions about Chamberlain Group's myQ Secure View 3-in-1 Smart Lock.
+    system_prompt = f"""You are a helpful assistant that answers questions about Chamberlain Group and their myQ Secure View 3-in-1 Smart Lock.
 
-Use ONLY the following retrieved documentation to answer questions. If the answer is not in the documents, say "I do not have that information in my documentation."
+Use the following retrieved documentation as your primary source. Answer questions naturally using this context. If the specific answer truly is not in the documentation, say "I do not have that information in my documentation."
 
 Retrieved documentation:
 {context}
