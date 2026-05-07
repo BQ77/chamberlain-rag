@@ -163,6 +163,4 @@ MIT
 
 <div align="center">
 
-**Built for Chamberlain Group's GenAI Software Engineering Internship demo.**
-
 </div>
